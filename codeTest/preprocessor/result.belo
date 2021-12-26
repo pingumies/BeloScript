@@ -1,0 +1,1 @@
+i=0;lstart;while(i<98);start;i+=1;;lend;end;deb(i);

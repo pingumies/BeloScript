@@ -1,0 +1,1 @@
+{set,i,42};{if,{less,i,43}};start;{deb,"is less than 43"};;end;else;start;{deb,"is larger than 43"};;end;{deb,"end"};

@@ -1,0 +1,8 @@
+n = 395
+k = 5
+c=0
+while (k <= n) {
+    c += n/k
+    k*=5
+}
+deb(floor(c))

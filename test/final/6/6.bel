@@ -1,0 +1,7 @@
+name = "Adam"
+function sayHello(name) {
+    deb("Hello "+name)
+}
+sayHello("World")
+sayHello("Andrei")
+deb(name)

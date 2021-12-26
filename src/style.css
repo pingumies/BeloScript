@@ -1,0 +1,29 @@
+
+.root {
+    -fx-background-color: #000000
+}
+.text-area .scroll-bar:vertical {
+    -fx-pref-width: 1;
+    -fx-opacity: 0;
+}
+.text-area {
+    -fx-text-fill: green ;
+    -fx-control-inner-background: #000000;
+    -fx-focus-color: green;
+}
+
+.text-field {
+    -fx-text-fill: green ;
+    -fx-control-inner-background: #000000;
+    -fx-focus-color: green;
+}
+
+.text-input:focused {
+    -fx-highlight-text-fill: ladder(
+        -fx-highlight-fill,
+        -fx-light-text-color 45%,
+        -fx-dark-text-color  46%,
+        -fx-dark-text-color  59%,
+        -fx-mid-text-color   60%
+    );
+}

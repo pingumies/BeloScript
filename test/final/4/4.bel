@@ -1,0 +1,10 @@
+i = 87
+if (i < 100) {
+    deb("first")
+}
+elif (i < 90) {
+    deb("second")
+}
+else {
+    deb("third")
+}

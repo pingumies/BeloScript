@@ -1,0 +1,4 @@
+list = List(9,7,5)
+for (i : list) {
+    deb(i)
+}

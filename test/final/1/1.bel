@@ -1,0 +1,8 @@
+i = 42
+if (i < 43) {
+    deb("is less than 43")
+}
+else {
+    deb("is larger than 43")
+}
+deb("end")
